@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lua-linenoise"
+version = "0.1"
+
+desc = "A delightfully simple command line library"
+author = "Rob Hoelz, Salvatore Sanfilippo"
+license = "MIT/X11"
+url = "https://github.com/azukiapp/lua-linenoise"
+maintainer = "Everton Ribeiro"
+
+depends = {
+  "lua >= 5.1, < 5.3",
+}

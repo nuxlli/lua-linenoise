@@ -1,18 +1,18 @@
 # lua-linenoise - Lua binding for the linenoise command line library
 
-Linenoise (https://github.com/antirez/linenoise) is a delightfully simple command
-line library.  This Lua module is simply a binding for it.
+[linenoise](https://github.com/antirez/linenoise) is a delightfully simple command line library.
 
-# Compilation
+[lua-linoise](https://github.com/hoelzro/lua-linenoise) is a lua module is simply a binding for linenoise.
 
-When building this module using make, you may use the linenoise source included in
-the repository, or you may set the Makefile variable `LIBLINENOISE` to override
-it:
+This module is a refactoring of the lua-linenoise for compatibility with [LuaDist](luadist.org).
 
-```sh
-make LIBLINENOISE=-llinenoise
-# OR:
-make LIBLINENOISE=/path/to/liblinenoise.a
+# Instalation
+
+You must have luadist installed.
+
+```bash
+$ git clone https://github.com/nuxlli/lua-linenoise
+$ luadist make lua-linenoise
 ```
 
 # Usage
